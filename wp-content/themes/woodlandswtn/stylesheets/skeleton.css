@@ -1,0 +1,385 @@
+/*
+* Skeleton V1.0.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 5/20/2011
+*/
+
+
+/* Table of Contents
+==================================================
+	#Base 960 Grid
+	#Tablet (Portrait)
+	#Mobile (Portrait)
+	#Mobile (Landscape)
+	#Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+	img { max-width: 100%; height: auto; }
+
+	.container { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+	.column, .columns { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+	.row { margin-bottom: 20px; }
+	#mobile-nav { display: none !important; }
+	#main-contact .contact-info .contact-wrap { height: 445px; }
+	#main-contact .contact-info .contact-wrap p { padding-bottom: 2em; }
+
+	/* Nested Column Classes */
+	.column.alpha, .columns.alpha 						{ margin-left: 0; }
+	.column.omega, .columns.omega 						{ margin-right: 0; }
+
+	.container .one-third.column						{ width: 300px; }
+	.container .two-thirds.column						{ width: 620px; }
+
+
+	/*****************************
+		16 Column
+	*****************************/
+
+	/* Base Grid */
+	.container-sixteen .one.column 						{ width: 40px;  }
+	.container-sixteen .two.columns 					{ width: 100px; }
+	.container-sixteen .three.columns 					{ width: 160px; }
+	.container-sixteen .four.columns 					{ width: 220px; }
+	.container-sixteen .five.columns 					{ width: 280px; }
+	.container-sixteen .six.columns 					{ width: 340px; }
+	.container-sixteen .seven.columns 					{ width: 400px; }
+	.container-sixteen .eight.columns 					{ width: 460px; }
+	.container-sixteen .nine.columns 					{ width: 520px; }
+	.container-sixteen .ten.columns 					{ width: 580px; }
+	.container-sixteen .eleven.columns 					{ width: 640px; }
+	.container-sixteen .twelve.columns 					{ width: 700px; }
+	.container-sixteen .thirteen.columns 				{ width: 760px; }
+	.container-sixteen .fourteen.columns 				{ width: 820px; }
+	.container-sixteen .fifteen.columns 				{ width: 880px; }
+	.container-sixteen .sixteen.columns 				{ width: 940px; }
+
+	/* Offsets */
+	.container-sixteen .offset-by-one 					{ margin-left: 60px;  }
+	.container-sixteen .offset-by-two 					{ margin-left: 120px; }
+	.container-sixteen .offset-by-three, .amenity.count0				{ margin-left: 180px; }
+	.container-sixteen .offset-by-four 					{ margin-left: 240px; }
+	.container-sixteen .offset-by-five 					{ margin-left: 300px; }
+	.container-sixteen .offset-by-six 					{ margin-left: 360px; }
+	.container-sixteen .offset-by-seven 				{ margin-left: 420px; }
+	.container-sixteen .offset-by-eight 				{ margin-left: 480px; }
+	.container-sixteen .offset-by-nine 					{ margin-left: 540px; }
+	.container-sixteen .offset-by-ten 					{ margin-left: 600px; }
+	.container-sixteen .offset-by-eleven 				{ margin-left: 660px; }
+	.container-sixteen .offset-by-twelve 				{ margin-left: 720px; }
+	.container-sixteen .offset-by-thirteen 				{ margin-left: 780px; }
+	.container-sixteen .offset-by-fourteen 				{ margin-left: 840px; }
+	.container-sixteen .offset-by-fifteen 				{ margin-left: 900px; }
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+	/* Note: Design for a width of 768px */
+
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.home h2, h1.page-title { font-size: 42px; }
+	h1 { font-size: 35px; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 21px; }
+	h4 { font-size: 17px; }
+	.logo a { width: 65px; }
+	a.btn { height: 64px; line-height: 64px; font-size: 18px; }
+	a.btn .icon { height: 104px; padding-left: 54px; }
+	.circle-text-photo { margin-top: 30px; text-align: center; }
+	.circle-text-photo h2 { margin-left: 0px; margin-top: 0px; }
+	.circle-text-photo .circle-photo { float: none; margin-top: 0px; }
+	.circle-text-photo .circle-photo img { margin-right: 0px; }
+	#blog .fbp2, #blog .fbp3 { display: none; }
+	.home .tags { display: block; }
+	.page-template-page-floorplan-php #slider-container { height: 499px; }
+	.blog #slider-container { height: 340px !important; }
+	#slider-controls a { top: 45%; }
+	.single-post #slider-controls a { top: 40%; }
+	#slider-top #slider-container { height: 320px; }
+	#compare-all .compare .compare-fp .button { margin-right: 130px; }
+	#content .video iframe { width: 508px; height: 305px; }
+	.tabs-wrap .tabs li a { width: 68px; font-size: 15px; }
+	.pull-quote { padding-left: 80px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li { margin-top: 3px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li a { width: 153px; height: 70px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(4) { margin-left: 0; }
+
+	#main-contact .contact-info .contact-wrap { height: 338px; }
+	#main-contact .contact-info .contact-wrap p { padding-bottom: 1em; }
+
+		.container { width: 768px; }
+		/*.container .column,
+		.container .columns { margin-left: 10px; margin-right: 10px;  }*/
+		.column.alpha, .columns.alpha 				{ margin-left: 0; margin-right: 10px; }
+		.column.omega, .columns.omega 				{ margin-right: 0; margin-left: 10px; }
+	.page-template-page-floorplan-php #fp-info .button, .page-template-page-floorplan-php #fp-info .price-info, .page-template-page-floorplan-php #fp-info .features { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+	.page-template-page-floorplan-php .price, .page-template-page-floorplan-php #fp-info .features { margin-top: 0 !important; }
+
+		.container .one-third.column, #fp-info .button, #fp-info .price-info, #fp-info .features				{ width: 236px; }
+		.container .two-thirds.column				{ width: 492px; }
+
+		/*****************************
+			16 Column
+			((768/16) - 20) * 1 = 28
+		*****************************/
+
+		.container-sixteen .one.column 						{ width: 28px;  }
+		.container-sixteen .two.columns 					{ width: 76px;  }
+		.container-sixteen .two.columns.amenity				{ width: 100px;  }
+		.container-sixteen .three.columns 					{ width: 124px; }
+		.container-sixteen .four.columns 					{ width: 172px; }
+		.container-sixteen .five.columns 					{ width: 220px; }
+		.container-sixteen .six.columns 					{ width: 268px; }
+		.container-sixteen .seven.columns 					{ width: 316px; }
+		.container-sixteen .eight.columns, .container-sixteen .four.columns.featured-blog-post, .container-sixteen .four.columns.photo-gallery-img					{ width: 364px; }
+		.container-sixteen .nine.columns 					{ width: 412px; }
+		.container-sixteen .ten.columns 					{ width: 460px; }
+		.container-sixteen .eleven.columns 					{ width: 508px; }
+		.container-sixteen .twelve.columns 					{ width: 556px; }
+		.container-sixteen .thirteen.columns 				{ width: 604px; }
+		.container-sixteen .fourteen.columns 				{ width: 652px; }
+		.container-sixteen .fifteen.columns 				{ width: 700px; }
+		.container-sixteen .sixteen.columns, #photo-gallery 				{ width: 748px; }
+		.page-template-page-floorplan-php #fp-info { width: 100%; margin: 0; }
+
+
+
+		/* Offsets */
+		.container-sixteen .offset-by-one 					{ margin-left: 48px;  }
+		.container-sixteen .offset-by-two, .amenity.count0					{ margin-left: 96px;  }
+		.container-sixteen .offset-by-three 				{ margin-left: 144px; }
+		.container-sixteen .offset-by-four 					{ margin-left: 192px; }
+		.container-sixteen .offset-by-five 					{ margin-left: 240px; }
+		.container-sixteen .offset-by-six 					{ margin-left: 286px; }
+		.container-sixteen .offset-by-seven 				{ margin-left: 336px; }
+		.container-sixteen .offset-by-eight 				{ margin-left: 384px; }
+		.container-sixteen .offset-by-nine 					{ margin-left: 432px; }
+		.container-sixteen .offset-by-ten 					{ margin-left: 480px; }
+		.container-sixteen .offset-by-eleven 				{ margin-left: 528px; }
+		.container-sixteen .offset-by-twelve 				{ margin-left: 576px; }
+		.container-sixteen .offset-by-thirteen 				{ margin-left: 624px; }
+		.container-sixteen .offset-by-fourteen 				{ margin-left: 672px; }
+		.container-sixteen .offset-by-fifteen 				{ margin-left: 720px; }
+
+	}
+
+
+/*	#Mobile (Portrait)
+================================================== */
+
+	/* Note: Design for a width of 320px */
+
+	@media only screen and (max-width: 767px) {
+.home h2, h1.page-title { font-size: 36px; }
+h1 { font-size: 32px; }
+h2 { font-size: 25px; }
+h3 { font-size: 18px; }
+h4 { font-size: 14px; }
+h1.logo { }
+
+/*
+.slicknav_menu { display: block; }
+*/
+#subnav-social, #nav, .home #blog, .textus-btn.non-mobile { display: none; }
+
+.top-directions-call, .text-btn.mobile { display: inline; }
+.top-directions-call a { display: inline-block; float: right; }
+	.logo a { width: 43px; height: 43px; background: url(../images/Woodlands_LOGO-sm.svg) no-repeat; float: right; }
+	.video iframe { width: 300px; height: 185px; }
+	.circle-text-photo { padding: 30px 0 10px 0; }
+	.circle-text-photo h2 { margin-left: 132px; margin-top: 0px; }
+	.circle-text-photo .circle-photo { float: none; }
+	.circle-text-photo .circle-photo, .circle-text-photo .circle-text { display: table-cell; vertical-align: top; }
+	.circle-text-photo .circle-photo img { margin-top: -55px; max-width: 112px; }
+	#map, /* .directions-btn, .call-btn, */ #look .content, #footer #footernav, #sidebar { display: none; }
+	a.btn.green { height: 64px; line-height: 64px; font-size: 22px; }
+	a.btn.green.lrg { height: 71px; font-size: 14px; }
+	a.btn.green.lrg strong { font-size: 28px; }
+	#footer .copyright { margin-top: 0; }
+	#btm-social-networks img { height: 30px; }
+	#btm-social-networks a { margin-right: 10px; margin-left: 10px; }
+	#content #slider-container, #main #slider-container, #slider-top #slider-container { height: 200px; }
+	#featured-gallery #slider-container-fhp, .home #slider-wrapper .slider img { height: 225px; }
+/*
+	.container .icon-btn.columns { width: 90px !important; }
+	.container .icon-btn.columns.call-btn { margin: 0 15px; }
+*/
+
+	/* #slider-top { display: none; } */
+	.container .icon-btn { margin-bottom: 15px; }
+	.home #top, .page-template-page-amenities-php #top { position: relative; }
+	#slider-controls a { top: 31%; }
+	.home #slider-controls a, #slider-top #slider-controls a { top: 35%; }
+	.page-template-page-floorplan-php #fp-info { text-align: center; }
+	#fp-info ul li { list-style-position: inside !important; }
+	#compare-all .compare .compare-fp .button { margin: 0 0px; }
+#compare-all .compare .compare-fp #fp-info .price-info, #compare-all .compare .compare-fp #fp-info .features { display: inline; width: 100%; text-align: center; }
+.page-template-page-contact-php #map, .page-template-page-contact-php .map-photo { display: none; }
+#main-contact { padding-top: 10px; }
+.read-more { float: none; margin-left: 0px; margin-bottom: 10px; }
+	.tabs-wrap .tabs li a { width: 47px; padding-left: 0; padding-right: 0; font-size: 11px; }
+	.pull-quote { padding-left: 30px; font-size: 35px; }
+	.page-template-page-photos-php .tabs-wrap .tabs li a { width: 110px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li { margin-top: 3px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li a { width: 148px; height: 70px; padding-left: 0; padding-right: 0; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(4) { margin-left: 3px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(3), .page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(5) { margin-left: 0px; }
+	/*
+#fancybox-overlay, #fancybox-wrap, .fancybox-overlay {
+    display: none !important;
+}
+*/
+
+		.container .two.columns.amenity  { width: 110px; margin-left: 25px; text-align: center; }
+.amenity p.title { width: 110px; }
+		#why .amenity .icon-image { height: 110px; }
+
+	#main-contact .contact-info .contact-wrap { height: auto; }
+	#main-contact .contact-info .contact-wrap p { padding-bottom: 1em; }
+
+
+		.container { width: 300px; }
+		.columns, .column { margin: 0; }
+
+		.container .one.column,
+		.container .two.columns,
+		.container .three.columns,
+		.container .four.columns,
+		.container .five.columns,
+		.container .six.columns,
+		.container .seven.columns,
+		.container .eight.columns,
+		.container .nine.columns,
+		.container .ten.columns,
+		.container .eleven.columns,
+		.container .twelve.columns,
+		.container .thirteen.columns,
+		.container .fourteen.columns,
+		.container .fifteen.columns,
+		.container .sixteen.columns,
+		.container .one-third.column,
+		.container .two-thirds.column { width: 300px; }
+		#fancybox-outer, .popup-content  { width: 200px; height: 200px; }
+
+
+		/* Offsets */
+		.container .offset-by-one,
+		.container .offset-by-two,
+		.container .offset-by-three,
+		.container .offset-by-four,
+		.container .offset-by-five,
+		.container .offset-by-six,
+		.container .offset-by-seven,
+		.container .offset-by-eight,
+		.container .offset-by-nine,
+		.container .offset-by-ten,
+		.container .offset-by-eleven,
+		.container .offset-by-twelve,
+		.container .offset-by-thirteen,
+		.container .offset-by-fourteen,
+		.container .offset-by-fifteen { margin-left: 0; }
+
+
+	}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+	/* Note: Design for a width of 480px */
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.video iframe { width: 420px; height: 255px; }
+	#content #slider-container, #main #slider-container, #slider-top #slider-container { height: 280px; }
+	#featured-gallery #slider-container-fhp, .home #slider-wrapper .slider img { height: 315px; }
+	#slider-controls a { top: 37%; }
+	.home #slider-controls a, #slider-top #slider-controls a { top: 40%; }
+
+	#compare-all .compare .compare-fp .button { margin: 0 80px; }
+	#compare-all .compare .compare-fp #fp-info .price-info, #compare-all .compare .compare-fp #fp-info .features { display: table-cell; width: 50%; }
+	.page-template-page-contact-php #map, .page-template-page-contact-php .map-photo { display: inline; }
+	.page-template-page-contact-php .map-photo { margin-top: 20px; }
+	.read-more { float: right; margin-left: 15px; margin-bottom: 0px; }
+
+	a.btn.green.lrg { height: 86px; font-size: 16px; }
+	a.btn.green.lrg strong { font-size: 36px; }
+	.tabs-wrap .tabs li a { width: 67px; font-size: 12px; }
+	.pull-quote { font-size: 45px; }
+	.page-template-page-photos-php .tabs-wrap .tabs li a { width: 158px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li a { width: 138px; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(4) { margin-left: 0; }
+	.page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(3), .page-template-page-move-in-out-php .tabs-wrap .tabs li:nth-child(5) { margin-left: 3px; }
+	.container .icon-btn.columns { width: 130px !important; }
+	.container .icon-btn.columns.call-btn { margin: 0 15px; }
+
+		.container { width: 420px; }
+		.columns, .column { margin: 0; }
+
+		.container .one.column,
+		.container .two.columns,
+		.container .three.columns,
+		.container .four.columns,
+		.container .five.columns,
+		.container .six.columns,
+		.container .seven.columns,
+		.container .eight.columns,
+		.container .nine.columns,
+		.container .ten.columns,
+		.container .eleven.columns,
+		.container .twelve.columns,
+		.container .thirteen.columns,
+		.container .fourteen.columns,
+		.container .fifteen.columns,
+		.container .sixteen.columns,
+		.container .one-third.column,
+		.container .two-thirds.column { width: 420px; }
+
+		.container .two.columns.amenity  { width: 110px; margin: 0 50px; text-align: center; }
+		#fancybox-outer, .popup-content  { width: 250px; height: 200px; }
+	}
+
+
+/* #Clearing
+================================================== */
+
+	/* Self Clearing Goodness */
+	.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+	/* Use clearfix class on parent to clear nested columns,
+	or wrap each row of columns in a <div class="row"> */
+	.clearfix:before,
+	.clearfix:after,
+	.row:before,
+	.row:after {
+	  content: '\0020';
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  width: 0;
+	  height: 0; }
+	.row:after,
+	.clearfix:after {
+	  clear: both; }
+	.row,
+	.clearfix {
+	  zoom: 1; }
+
+	/* You can also use a <br class="clear" /> to clear columns */
+	.clear {
+	  clear: both;
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  width: 0;
+	  height: 0;
+	}
+
+
